@@ -1,7 +1,8 @@
 body {
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
-.global-header{
+
+.global-header {
     position: absolute;
     top: 0;
     left: 0;
@@ -11,29 +12,53 @@ body {
     background-size: 1440px 1315px;
 
 }
-.global-nav{
+
+.global-nav {
     position: relative;
-    top:30px;
+    top: 30px;
     left: 9%;
     right: auto;
     height: 36px;
+    width: 980px;
+   
 }
+
 ul {
     list-style: none;
     border-radius: 5px;
 }
-  li:hover {
+
+li:hover {
     background-color: gray;
-  }
-li{
+}
+
+li {
     display: block;
     text-align: center;
     padding: 16px;
     text-decoration: none;
     color: white;
     float: left;
-    width: 70px;
+    border-right: 1px solid rgb(119, 119, 119);
+    width: 65px;
     cursor: pointer;
     background: linear-gradient(to bottom, #797979 50%, #5e5e5e 60%, #797979 100%);
-  }
-  
+}
+
+.global-search {
+    width: 100px;
+    padding: 8px 13px;
+    height: 34px;
+    background: linear-gradient(to bottom, #797979 50%, #5e5e5e 60%, #797979 100%);
+}
+
+.global-search input {
+    background: linear-gradient(to bottom, #797979 50%, #5e5e5e 60%, #797979 100%);
+    border-radius: 6px;
+    margin-top: 4px;
+    border: none;
+    box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,1);
+}
+.global-search i{
+   float: left;
+}
