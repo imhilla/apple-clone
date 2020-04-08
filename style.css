@@ -57,9 +57,6 @@ html {
     background: linear-gradient(to bottom, #797979 50%, #5e5e5e 60%, #797979 100%);
 }
 
-.global-link {
-    pointer-events: none;
-}
 
 .global-nav input[type=text] {
     float: right;
@@ -146,6 +143,7 @@ html {
     width: 25%;
     height: 200px;
     list-style-type: none;
+    overflow: hidden;
 }
 
 .home-footer {
