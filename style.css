@@ -83,7 +83,8 @@ html {
     top: 0;
     left: -40%;
 }
-.gn-apple{
+
+.gn-apple {
     font-size: 24px;
     padding: 7px 16px !important;
 }
@@ -189,12 +190,23 @@ html {
     width: 51%;
     padding-top: 1.5em;
     margin-top: -60px;
-    margin-right:90px ;
+    margin-right: 90px;
 }
-.left p a, .right p a{
-   color: rgb(0, 136, 204);
-   text-decoration: none;
+
+.left p a,
+.right p a {
+    color: rgb(0, 136, 204);
+    text-decoration: none;
 }
-.right p a:hover, .left p a:hover{
+
+.right p a:hover,
+.left p a:hover {
     text-decoration: underline;
+}
+
+.piped {
+    border-left: 1px solid #ccc;
+    margin-left: .6em;
+    padding-left: .6em;
+
 }
