@@ -83,6 +83,10 @@ html {
     top: 0;
     left: -40%;
 }
+.gn-apple{
+    font-size: 24px;
+    padding: 7px 16px !important;
+}
 
 .your-verse h1 {
     position: relative;
@@ -150,4 +154,47 @@ html {
     width: 25%;
     height: 200px;
     list-style-type: none;
+}
+
+.home-footer {
+    position: relative;
+    z-index: 1;
+    right: 0;
+    top: 540px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 90px;
+    padding: 0;
+    color: #6e6e6e;
+    font-size: .8334em;
+    line-height: 1.2;
+    text-align: center;
+    zoom: 1;
+    background-color: white;
+}
+
+.left {
+    float: left;
+    clear: both;
+    width: 49%;
+    padding-top: 1.5em;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.right {
+    float: right;
+    width: 51%;
+    padding-top: 1.5em;
+    margin-top: -60px;
+    margin-right:90px ;
+}
+.left p a, .right p a{
+   color: rgb(0, 136, 204);
+   text-decoration: none;
+}
+.right p a:hover, .left p a:hover{
+    text-decoration: underline;
 }
