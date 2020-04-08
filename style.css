@@ -6,7 +6,7 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-.global-header {
+.global {
     position: absolute;
     top: 0;
     left: 0;
@@ -200,4 +200,13 @@ html {
     margin-left: .6em;
     padding-left: .6em;
 
+}
+.usa{
+    margin-bottom: -5px;
+    margin-left: .6em;
+}
+.right-pipe{
+    border-right: 1px solid #ccc;
+    margin-right: .6em;
+    padding-right: .6em;
 }
