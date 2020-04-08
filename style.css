@@ -34,6 +34,10 @@ html {
     background: linear-gradient(to bottom, #585454 50%, #474141 60%, #7c6e6e 100%);
 }
 
+.global-link:hover {
+    background: linear-gradient(to bottom, #797979 50%, #5e5e5e 60%, #797979 100%) !important;
+}
+
 .global-nav li {
     display: block;
     text-align: center;
@@ -86,11 +90,12 @@ html {
     padding: 7px 16px !important;
 }
 
-.your-verse{
+.your-verse {
     position: relative;
     top: 100px;
     left: 230px;
 }
+
 .your-verse p {
     position: relative;
     left: 230px;
@@ -98,7 +103,8 @@ html {
     font-size: 24px;
     font-family: 'Roboto';
 }
-.tittle{
+
+.tittle {
     width: auto;
     height: 94px;
 }
@@ -199,11 +205,13 @@ html {
     padding-left: .6em;
 
 }
-.usa{
+
+.usa {
     margin-bottom: -5px;
     margin-left: .6em;
 }
-.right-pipe{
+
+.right-pipe {
     border-right: 1px solid #ccc;
     margin-right: .6em;
     padding-right: .6em;
