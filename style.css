@@ -1,7 +1,6 @@
 body {
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
-
 .global-header {
     position: absolute;
     top: 0;
@@ -10,17 +9,15 @@ body {
     height: 550px;
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     background-size: 1440px 1315px;
-
 }
 
 .global-nav {
     position: relative;
-    top: 30px;
+    top: 70px;
     left: 9%;
     right: auto;
-    height: 36px;
-    width: 980px;
-   
+    width: auto;
+    overflow: hidden;
 }
 
 ul {
@@ -29,13 +26,13 @@ ul {
 }
 
 li:hover {
-    background-color: gray;
+    background: linear-gradient(to bottom, #1a1515 50%, #474141 60%, #221b1b 100%);
 }
 
 li {
     display: block;
     text-align: center;
-    padding: 16px;
+    padding: 10px 16px;
     text-decoration: none;
     color: white;
     float: left;
@@ -46,19 +43,31 @@ li {
 }
 
 .global-search {
+    position: relative;
+    top: -27px;
+    left: 51%;
     width: 100px;
-    padding: 8px 13px;
-    height: 34px;
+    padding: 0;
+    background-image: none;
     background: linear-gradient(to bottom, #797979 50%, #5e5e5e 60%, #797979 100%);
 }
 
-.global-search input {
+.global-nav input[type=text] {
+    float: right;
+    padding: 4px;
+    border: none;
     background: linear-gradient(to bottom, #797979 50%, #5e5e5e 60%, #797979 100%);
     border-radius: 6px;
-    margin-top: 4px;
-    border: none;
-    box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,1);
+    box-shadow: inset 0px 1px 5px 0px rgb(59, 57, 57);
+    z-index: 0;
+    margin-top: -19px;
+    height: 10px;
 }
-.global-search i{
-   float: left;
+.global-link{
+    width: 100px !important;
+}
+.global-link i{
+  position: relative;
+  top: 0;
+  left: -40%;
 }
