@@ -142,10 +142,11 @@ html {
     left: -40px;
     margin: 0;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
 
 .promos ul li {
-    float: left;
     width: 25%;
     height: 200px;
     list-style-type: none;
@@ -181,12 +182,11 @@ html {
 }
 
 .right {
-    position: absolute;
-    left: 700px;
-    display: flex;
-    flex-direction: row;
+    float: right;
     width: 51%;
-    padding-top: 1.5em; 
+    padding-top: 1.5em;
+    margin-top: -70px;
+    margin-right: 90px;
 }
 
 .left p a,
