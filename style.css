@@ -181,11 +181,12 @@ html {
 }
 
 .right {
-    float: right;
+    position: absolute;
+    left: 700px;
+    display: flex;
+    flex-direction: row;
     width: 51%;
-    padding-top: 1.5em;
-    margin-top: -60px;
-    margin-right: 90px;
+    padding-top: 1.5em; 
 }
 
 .left p a,
