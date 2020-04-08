@@ -1,5 +1,6 @@
 body {
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 .global-header {
@@ -21,16 +22,16 @@ body {
     overflow: hidden;
 }
 
-ul {
+.global-nav ul {
     list-style: none;
     border-radius: 8px;
 }
 
-li:hover {
+.global-nav li:hover {
     background: linear-gradient(to bottom, #585454 50%, #474141 60%, #7c6e6e 100%);
 }
 
-li {
+.global-nav li {
     display: block;
     text-align: center;
     padding: 10px 16px;
@@ -85,15 +86,62 @@ li {
     top: 100px;
     left: 300px;
     color: white;
-    font:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font: 'Heebo', "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     font-size: 64px;
-    font-weight: 100;
+    font-weight: ;
 }
-.your-verse h2{
+
+.your-verse h2 {
     position: relative;
     top: 100px;
-    left:200px ;
+    left: 200px;
     font-size: 32px;
     color: white;
+}
 
+.your-verse p {
+    position: relative;
+    left: 350px;
+    top: 150px;
+    color: white;
+    font-size: 24px;
+}
+
+.your-verse p a {
+    text-decoration: none;
+    color: white;
+}
+
+.your-verse p a:hover {
+    text-decoration: underline;
+}
+
+.iphone5s {
+    background-image: url(img/promo_iphone5s.jpg);
+}
+
+.iphone5c {
+    background-image: url(img/promo_iphone5c.jpg);
+}
+
+.happybirthday {
+    background-image: url(img/promo_30_years.jpg);
+}
+
+.supplier {
+    background-image: url(img/promo_supplier_responsibility.jpg);
+}
+.promos ul{
+    min-width: 1024px;
+    width: 100%;
+    max-width: 1440px;
+    height: 200px;
+}
+.promos ul li {
+    position: relative;
+    top: ;
+    z-index: 1;
+    float: left;
+    width: 25%;
+    height: 200px;
 }
