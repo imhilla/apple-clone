@@ -1,6 +1,7 @@
 body {
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
+
 .global-header {
     position: absolute;
     top: 0;
@@ -22,11 +23,11 @@ body {
 
 ul {
     list-style: none;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 li:hover {
-    background: linear-gradient(to bottom, #1a1515 50%, #474141 60%, #221b1b 100%);
+    background: linear-gradient(to bottom, #585454 50%, #474141 60%, #7c6e6e 100%);
 }
 
 li {
@@ -52,6 +53,10 @@ li {
     background: linear-gradient(to bottom, #797979 50%, #5e5e5e 60%, #797979 100%);
 }
 
+.global-link {
+    pointer-events: none;
+}
+
 .global-nav input[type=text] {
     float: right;
     padding: 4px;
@@ -62,12 +67,33 @@ li {
     z-index: 0;
     margin-top: -19px;
     height: 10px;
+    cursor: default;
 }
-.global-link{
+
+.global-link {
     width: 100px !important;
 }
-.global-link i{
-  position: relative;
-  top: 0;
-  left: -40%;
+
+.global-link i {
+    position: relative;
+    top: 0;
+    left: -40%;
+}
+
+.your-verse h1 {
+    position: relative;
+    top: 100px;
+    left: 300px;
+    color: white;
+    font:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 64px;
+    font-weight: 100;
+}
+.your-verse h2{
+    position: relative;
+    top: 100px;
+    left:200px ;
+    font-size: 32px;
+    color: white;
+
 }
