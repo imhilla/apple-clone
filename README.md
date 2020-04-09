@@ -7,7 +7,7 @@ Here's the screenshot
 ![Alt text](/img/appleclone.PNG?raw=true "Optional Title")
 
 Here's a live link
-https://raw.githack.com/imhilla/apple-clone/master/index.html
+<a href="">https://raw.githack.com/imhilla/apple-clone/master/index.html</a>
 
 Here are some of the things i did
 Created empty semantic HTML elements to enclose those sections.
